@@ -55,3 +55,13 @@ def merge_dicts(d1,d2):
 def unique_count(lst):
     return len(set(lst))
 print(unique_count([1,1,2,23,3,3,4]))
+
+
+  #  Prime Checker: Write a function is_prime(n) that returns True if n is a prime number.
+def is_prime(n):
+    for i in range (2,int((n**0.5))+1):
+        if n%2==0:
+         return False 
+        else:
+            return True
+print (is_prime(4))
