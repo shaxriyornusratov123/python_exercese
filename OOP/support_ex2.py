@@ -28,3 +28,4 @@ b.play(10, 4)
 b.charger(10,3)
 print(b.persentage)
 print(b.history)
+

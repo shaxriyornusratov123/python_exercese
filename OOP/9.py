@@ -9,12 +9,13 @@ class Laptop:
     
 lap1=Laptop(
     brand="acer",
-    ram="DDR3",
+    ram="32gb",
     price=1200
 )
 lap2=Laptop(
     brand="HP",
-    ram="DDR",
+    ram="16gb",
     price=800
 )
 print(lap1,lap2)
+

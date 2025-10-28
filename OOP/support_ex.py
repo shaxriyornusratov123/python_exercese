@@ -14,6 +14,8 @@ class Prime_number:
             if self.is_prime(num):
                 tub_sonlar.append(num)
         return tub_sonlar
+    
+    
 numbers=[1,2,3,4,5,6,7,8,9,11,17]
 sonlar=Prime_number(numbers)
 print(sonlar.get_primes())

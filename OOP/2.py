@@ -3,7 +3,7 @@ class Person:
         self.name=name
         self.age=age
     def __str__(self):
-        return f"person<name={self.name}\n,age={self.age}>"
+        return f"person<name={self.name},age={self.age}>"
 p1=Person(
     name="eshmat",
     age=24
