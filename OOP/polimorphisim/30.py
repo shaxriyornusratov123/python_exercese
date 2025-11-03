@@ -14,3 +14,7 @@ hujum=[Soldier(),Tank(),Helicopter()]
 
 for a in hujum:
     a.attack()
+
+
+
+    

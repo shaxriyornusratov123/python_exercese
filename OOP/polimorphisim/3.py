@@ -1,7 +1,6 @@
 class Shape:
     def area(self):
-        print("area of shape")
-
+        raise NotImplementedError ("notimplementerror")
 class Circle(Shape):
     def __init__(self,radius):
         self.radius=radius

@@ -21,3 +21,4 @@ t=Triangle(1,2,3)
 r=Rectangle(4,6)
 print(t.perimetr())
 print(r.perimetr())
+
